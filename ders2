@@ -1,0 +1,104 @@
+<html> 
+	<head>
+		
+	</head>
+	<body>
+	<ol type="A">
+		<li>Balıkesirspor</li>
+		<li>Kütahyaspor</li>
+		<li>Galatasaray</li>
+		<li>Bursaspor</li>
+	</ol>
+	<ol type="a">
+		<li>Balıkesirspor</li>
+		<li>Kütahyaspor</li>
+		<li>Galatasaray</li>
+		<li>Bursaspor</li>
+	</ol>
+	<ol type="I">
+		<li>Balıkesirspor</li>
+		<li>Kütahyaspor</li>
+		<li>Galatasaray</li>
+		<li>Bursaspor</li>
+	</ol>
+	<ol type="i">
+		<li>Balıkesirspor</li>
+		<li>Kütahyaspor</li>
+		<li>Galatasaray</li>
+		<li>Bursaspor</li>
+	</ol>
+	<ol type="1" start="15">
+		<li>Balıkesirspor</li>
+		<li>Kütahyaspor</li>
+		<li>Galatasaray</li>
+		<li>Bursaspor</li>
+	</ol>
+	<ol type="1" reversed>
+		<li>Balıkesirspor</li>
+		<li>Kütahyaspor</li>
+		<li>Galatasaray</li>
+		<li>Bursaspor</li>
+	</ol>
+	
+	<ul>
+		<li>Akademik Birimler
+			<li>Fakülteler</li>
+			<li>Meslek Yüksekokulları
+				<ul>
+					<li>Teknik Bilimler MYO
+						<ol type="1">
+							<li>Bilgisayar Teknolojileri</li>
+							<li>Elektrik ve Enerji</li>
+						</ol>
+					
+					
+					</li>
+					<li>Sosyal Bilimler MYO</li>
+				</ul>
+			</li>
+		</li>
+		<li>İdari Bilimler</li>
+	</ul>
+	
+	
+	<ul type="circle">
+	<li>Akademik Birimler</li>
+	<li>İdari Bilimler</li>
+	</ul>
+	<ul type="square">
+	<li>Akademik Birimler</li>
+	<li>İdari Bilimler</li>
+	</ul>
+	<ul type="disc">
+	<li>Akademik Birimler</li>
+	<li>İdari Bilimler</li>
+	</ul>
+	<ul type="none">
+	<li>Akademik Birimler</li>
+	<li>İdari Bilimler</li>
+	</ul>
+	<h1>Kütahya</h1>
+	<img
+		src="resim.jpg"
+		alt="Kütahya"
+		width="200"
+		height="200"
+	/>
+	
+	<img
+		src="resimler/resim1.jpg"
+		alt="Kütahya"
+		width="200"
+		height="200"
+	/>
+	
+	<img
+		src="../resim3.jpg"
+		alt="Kütahya"
+		width="200"
+		height="200"
+	/>
+		
+	</body>
+
+</html>
