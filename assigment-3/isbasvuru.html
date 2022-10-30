@@ -1,0 +1,184 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>İş Başvuru Formu</title>
+    </head>
+    <body>
+        <h1 align="center" style="color:red">DÖNMEZ YAZILIM ŞİRKETİ</h1>
+        <form action="basvurulistesi.php" method="get"></form>
+        <table border="7" width="100%" style="background-color: aquamarine; color: rgb(54, 2, 2);">
+            <tr>
+                <th colspan="2" style="font-size:20px">İŞ BAŞVURU FORMU</th>
+            </tr>
+            <tr>
+                <td>Başvuru Tarihi</td>
+                <td><input type="text" name="Tarih" size="40"/></td>
+            </tr>
+            <tr>
+                <td>Başvurulan Pozisyon</td>
+                <td><input type="text" name="Pozisyon" size="40"/></td>
+            </tr>
+            <tr>
+                <td>Adı</td>
+                <td><input type="text" name="Adı" size="40"/></td>
+            </tr>
+            <tr>
+                <td>Soyadı</td>
+                <td><input type="text" name="Soyadı" size="40" /></td>
+            </tr>
+            <tr>
+                <td>Dogum Tarihi</td>
+                <td><input type="text" name="Dogum Tarihi" size="40"/></td>
+            </tr>
+            <tr>
+                <td>Dogum Yeri</td>
+                <td><input type="text" name="Dogum Yeri" size="40"/></td>
+            </tr>
+            <tr>
+                <td>Cinsiyet</td>
+                <td><input type="radio" name="cinsiyet" value="e"> Erkek <br>
+                    <input type="radio" name="cinsiyet" value="k"> Kadın <br></td>
+            </tr>
+            <tr>
+                <td>Medeni Durum</td>
+                <td><input type="radio" name="medenidurum" value="e"> Evli <br>
+                    <input type="radio" name="medenidurum" value="b"> Bekar <br>
+                    Çocuk Sayısı(varsa) <input type="text" name="Dogum Yeri" size="20"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Uyruk</td>
+                <td><input type="radio" name="uyruk" value="tc"> TC <br>
+                    <input type="radio" name="uyruk" value="diger"> Diğer <br>
+                    Uyruk adı(diğer seçilirse) <input type="text" name="Dogum Yeri" size="16"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" size="40"/></td>
+            </tr>
+            <tr>
+                <td>Web</td>
+                <td><input type="url" name="web" size="40"/></td>
+            </tr>
+            <tr>
+                <td>Telefon Numarası</td>
+                <td><input type="text" name="Telefon Numarası" size="40"/></td>
+            </tr>
+            <tr>
+                <td>Adres</td>
+                <td><textarea name="adres" id="" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Askerlik</td>
+                <td><select name="Askerlik Durumu">
+                    <option>Tecilli</option>
+                    <option>Muaf</option>
+                    <option>Yapıldı</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Sürücü Belgesi</td>
+                <td><select name="Askerlik Durumu">
+                    <option>Yok</option>
+                    <option>M</option>
+                    <option>A1</option>
+                    <option>A2</option>
+                    <option>A</option>
+                    <option>B1</option>
+                    <option>B</option>
+                    <option>BE</option>
+                    <option>C1</option>
+                    <option>C1E</option>
+                    <option>C</option>
+                    <option>CE</option>
+                    <option>D1</option>
+                    <option>D1E</option>
+                    <option>D</option>
+                    <option>DE</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Egitim Durumu</td>
+                <td><select name="Egitim Durumu Durumu">
+                    <option>İlkokul</option>
+                    <option>Ortaokul</option>
+                    <option>Lise</option>
+                    <option>lisans</option>
+                    <option>Yüksek Lisans</option>
+                    <option>Doktora</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Hobiler</td>
+                <td><input type="checkbox" name="hobiler[]" value="kitap"> Kitap okumak <br>
+                    <input type="checkbox" name="habiler[]" value="film">Film İzlemek <br>
+                    <input type="checkbox" name="habiler[]" value="yüzme">Yüzmek <br>
+                    <input type="checkbox" name="habiler[]" value="yürümek">Yürüyüş Yapmak <br>
+                    <input type="checkbox" name="habiler[]" value="spor">Spor Yapmak <br>
+                    Diger <br>
+                    <textarea name="hobiler" id="" cols="40" rows="5"></textarea>
+                    </td>
+            </tr>
+            <tr>
+                <td>Kötü Alışkanlıklar</td>
+                <td><input type="checkbox" name="alıskanlıklar[]" value="sigara"> Sigara Kullanmak <br>
+                    <input type="checkbox" name="alıskanlıklar[]" value="alkol"> Alkol Kullanmak <br>
+                    Diger <br>
+                    <textarea name="alıskanlıklar" id="" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Kullanılan Proğramlar</td>
+                <td><input type="checkbox" name="programlar[]" value="word"> Word <br>
+                    <input type="checkbox" name="programlar[]" value="excel"> Excel <br>
+                    <input type="checkbox" name="programlar[]" value="excel"> Power Point <br>
+
+                    Diger <br>
+                    <textarea name="programlar" id="" cols="40" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Bildiğiniz Proğramlama Dilleri</td>
+                <td><input type="checkbox" name="pdiller[]" value="C"> C <br>
+                    <input type="checkbox" name="pdiller[]" value="Java"> Java <br>
+                    <input type="checkbox" name="pdiller[]" value="PHP"> PHP <br>
+                    <input type="checkbox" name="pdiller[]" value="Python"> Python <br>
+
+                    Diger <br>
+                    <textarea name="programlar" id="" cols="40" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Geçmiş İşler</td>
+                <td><textarea name="gecmisisler" id="" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Kurs,Seminer,Ödül,Sertifika vs.</td>
+                <td><textarea name="kurs" id="" cols="40" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Üye Olunan Dernek ve Kuruluşlar</td>
+                <td><textarea name="üye" id="" cols="40" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Referanslar</td>
+                <td><textarea name="referanslar" id="" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Beklentileriniz</td>
+                <td><textarea name="beklentiler" id="" cols="40" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Ücret Beklentiniz(Net)</td>
+                <td><input type="text" name="Ücret" size="40"/></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="GÖNDER">
+                    <input type="reset" value="İPTAL">
+                </td>
+            </tr>
+        
+        </table>
+        </form>
+
+    </body>
+</html>
