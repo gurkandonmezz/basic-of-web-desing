@@ -5,7 +5,7 @@
     </head>
     <body>
         <h1 align="center" style="color:red">DÖNMEZ YAZILIM ŞİRKETİ</h1>
-        <form action="basvurulistesi.php" method="get"></form>
+        <form action="basvurulistesi.php" method="get">
         <table border="7" width="100%" style="background-color: aquamarine; color: rgb(54, 2, 2);">
             <tr>
                 <th colspan="2" style="font-size:20px">İŞ BAŞVURU FORMU</th>
@@ -36,20 +36,21 @@
             </tr>
             <tr>
                 <td>Cinsiyet</td>
-                <td><input type="radio" name="cinsiyet" value="e"> Erkek <br>
-                    <input type="radio" name="cinsiyet" value="k"> Kadın <br></td>
+                <td><label ><input type="radio" name="cinsiyet" value="e"> Erkek</label><br>
+                    <label><input type="radio" name="cinsiyet" value="k"> Kadın</label><br>
+                </td>
             </tr>
             <tr>
                 <td>Medeni Durum</td>
-                <td><input type="radio" name="medenidurum" value="e"> Evli <br>
-                    <input type="radio" name="medenidurum" value="b"> Bekar <br>
+                <td><label><input type="radio" name="medenidurum" value="e"> Evli </label><br>
+                    <label><input type="radio" name="medenidurum" value="b"> Bekar </label><br>
                     Çocuk Sayısı(varsa) <input type="text" name="Dogum Yeri" size="20"/>
                 </td>
             </tr>
             <tr>
                 <td>Uyruk</td>
-                <td><input type="radio" name="uyruk" value="tc"> TC <br>
-                    <input type="radio" name="uyruk" value="diger"> Diğer <br>
+                <td><label><input type="radio" name="uyruk" value="tc"> TC </label><br>
+                    <label><input type="radio" name="uyruk" value="diger"> Diğer </label><br>
                     Uyruk adı(diğer seçilirse) <input type="text" name="Dogum Yeri" size="16"/>
                 </td>
             </tr>
@@ -112,37 +113,37 @@
             </tr>
             <tr>
                 <td>Hobiler</td>
-                <td><input type="checkbox" name="hobiler[]" value="kitap"> Kitap okumak <br>
-                    <input type="checkbox" name="habiler[]" value="film">Film İzlemek <br>
-                    <input type="checkbox" name="habiler[]" value="yüzme">Yüzmek <br>
-                    <input type="checkbox" name="habiler[]" value="yürümek">Yürüyüş Yapmak <br>
-                    <input type="checkbox" name="habiler[]" value="spor">Spor Yapmak <br>
+                <td><label><input type="checkbox" name="hobiler[]" value="kitap"> Kitap okumak </label><br>
+                    <label><input type="checkbox" name="habiler[]" value="film">Film İzlemek </label><br>
+                    <label><input type="checkbox" name="habiler[]" value="yüzme">Yüzmek </label><br>
+                    <label><input type="checkbox" name="habiler[]" value="yürümek">Yürüyüş Yapmak </label><br>
+                    <label><input type="checkbox" name="habiler[]" value="spor">Spor Yapmak </label><br>
                     Diger <br>
                     <textarea name="hobiler" id="" cols="40" rows="5"></textarea>
                     </td>
             </tr>
             <tr>
                 <td>Kötü Alışkanlıklar</td>
-                <td><input type="checkbox" name="alıskanlıklar[]" value="sigara"> Sigara Kullanmak <br>
-                    <input type="checkbox" name="alıskanlıklar[]" value="alkol"> Alkol Kullanmak <br>
+                <td><label><input type="checkbox" name="alıskanlıklar[]" value="sigara"> Sigara Kullanmak </label> <br>
+                    <label><input type="checkbox" name="alıskanlıklar[]" value="alkol"> Alkol Kullanmak </label><br>
                     Diger <br>
                     <textarea name="alıskanlıklar" id="" cols="40" rows="5"></textarea></td>
             </tr>
             <tr>
                 <td>Kullanılan Proğramlar</td>
-                <td><input type="checkbox" name="programlar[]" value="word"> Word <br>
-                    <input type="checkbox" name="programlar[]" value="excel"> Excel <br>
-                    <input type="checkbox" name="programlar[]" value="excel"> Power Point <br>
+                <td><label><input type="checkbox" name="programlar[]" value="word"> Word </label><br>
+                    <label><input type="checkbox" name="programlar[]" value="excel"> Excel </label><br>
+                    <label><input type="checkbox" name="programlar[]" value="excel"> Power Point </label><br>
 
                     Diger <br>
                     <textarea name="programlar" id="" cols="40" rows="10"></textarea></td>
             </tr>
             <tr>
                 <td>Bildiğiniz Proğramlama Dilleri</td>
-                <td><input type="checkbox" name="pdiller[]" value="C"> C <br>
-                    <input type="checkbox" name="pdiller[]" value="Java"> Java <br>
-                    <input type="checkbox" name="pdiller[]" value="PHP"> PHP <br>
-                    <input type="checkbox" name="pdiller[]" value="Python"> Python <br>
+                <td><label><input type="checkbox" name="pdiller[]" value="C"> C </label><br>
+                    <label><input type="checkbox" name="pdiller[]" value="Java"> Java </label><br>
+                    <label><input type="checkbox" name="pdiller[]" value="PHP"> PHP </label><br>
+                    <label><input type="checkbox" name="pdiller[]" value="Python"> Python </label><br>
 
                     Diger <br>
                     <textarea name="programlar" id="" cols="40" rows="10"></textarea></td>
